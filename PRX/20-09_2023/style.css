@@ -1,0 +1,75 @@
+body
+{
+    background-color: rgb(112, 255, 224);
+    margin: 0;
+}
+
+h2 
+{
+    color: blue;
+    background-color: aqua;
+    margin: 10px 8px;
+    padding: 8px 15px;
+    border: solid 3px red;
+}
+
+p
+{
+    color: white;
+    background-color: cadetblue;
+    margin: 10px 8px;
+    padding: 8px 15px;
+    border: solid 2px greenyellow;
+}
+
+section
+{
+    border: solid 2px yellow;
+    height: 600px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url(https://c4.wallpaperflare.com/wallpaper/246/739/689/digital-digital-art-artwork-illustration-abstract-hd-wallpaper-thumb.jpg);
+}
+
+div
+{
+    margin: 10px;
+}
+
+/* MENU */
+nav
+{
+    /*background-color: chartreuse;*/
+    display: flex;
+    justify-content: flex-end;
+    padding: 5px;
+}
+
+#IDdiv
+{
+    background-color: blueviolet;
+}
+
+a
+{
+    background-color: green;
+    color: wheat;
+    padding: 12px 16px;
+    font-size: 1.2em;
+    font-family: Verdana, Geneva, Tahoma,  sans-serif;
+    font-weight: bold;
+    
+    border-bottom: solid 2px yellow;
+    border-top: solid 2px yellow;
+    margin-right: 10px;
+
+    transition: all 300ms;
+}
+
+a:hover
+{
+    background-color: aquamarine;
+    color:  black;
+    padding-bottom: 50px;
+}

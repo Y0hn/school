@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        .cervenyNadpis
+        {
+            background-color: brown;
+            color: white;
+            padding: 10px;
+        }
+        #IDnadpis
+        {
+            background-color: chartreuse;
+            color: black;
+            margin: 80px;
+        }
+        .btn
+        {
+            background-color: blueviolet;
+            color:  whitesmoke;
+            border: none;
+            padding: 15px 32px;
+            text-align: center;
+            font-size: 16px;
+            margin: 5px 2px;
+            cursor: pointer;
+            border-radius: 20px;
+        }
+        .btn:hover
+        {
+            background-color: blue;
+            color: rgb(255, 0, 179);
+            box-shadow: 0 12px 16px 0 rgba(0, 183, 255, 0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+        }
+        .disabled
+        {
+            opacity: 0.6;
+            cursor: not-allowed;
+        }
+    </style>
+</head>
+<body>
+    <h2>Nadpis</h2>
+    <h2 class="cervenyNadpis">Nadpis</h2>
+    <h2 class="cervenyNadpis">Nadpis</h2>
+    <h2>Nadpis</h2>
+    <h2 id="IDnadpis">Nadpis</h2>
+
+    <button class="btn">Press this</button>
+    <button class="btn disabled">Do not press this</button>
+
+    <form action="/databaza.php"> <!-- nigdy neexistovala :D -->
+        <label for="meno">Meno</label><br>
+        <input type="text" id="fname" value=" "></br>
+        <label for="priezvisko">Priezvisko</label><br>
+        <input type="text" id="fsurname" value=" "></br>
+    </form>
+    <button class="btn">Send</button>
+
+    <form action="/databaza.php"> <!-- nigdy neexistovala :D -->
+        <input type="radio" id="ANJ" name="favLanguage" value="ANJ">
+        <label for="ANJ">ANJ</label><br>
+        <input type="radio" id="NEJ" name="favLanguage" value="NEJ">
+        <label for="NEJ">NEJ</label><br>
+        <input type="radio" id="FRJ" name="favLanguage" value="FRJ">
+        <label for="FRJ">FRJ</label><br>
+    </form>
+    <button class="btn">Send</button>
+    
+    <form action="/databaza.php"> <!-- nigdy neexistovala :D -->
+        <input type="checkbox" id="ANJ" name="favLanguage" value="ANJ">
+        <label for="ANJ">ANJ</label><br>
+        <input type="checkbox" id="NEJ" name="favLanguage" value="NEJ">
+        <label for="NEJ">NEJ</label><br>
+        <input type="checkbox" id="FRJ" name="favLanguage" value="FRJ">
+        <label for="FRJ">FRJ</label><br>
+    </form>
+    <button class="btn">Send</button>
+</body>
+</html>
